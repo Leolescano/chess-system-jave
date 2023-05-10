@@ -18,4 +18,8 @@ public class King extends ChessPiece {
 	public boolean[][] possibleMoves() {
 		return new boolean[getBoard().getRows()][getBoard().getColumns()];
 	}
+	// practicando Git
+	public void metodo(){
+		System.out.println("Usando Git");
+	}
 }
